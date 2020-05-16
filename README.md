@@ -1,68 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 프리윌린 과제 : 문제 템플릿 만들기
+-----------
+이 프로젝트는 프리윌린 과제 입니다.
 
-## Available Scripts
+![](https://images.velog.io/images/carminchameleon/post/84a4cb53-cfcd-4b5c-9b0a-33b3f816349b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202020-05-17%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2012.16.58.png)
 
-In the project directory, you can run:
+### 기술스택
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 적용 기술 및 구현 기능
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+**적용 기술** 
 
-### `yarn test`
+React, Hooks, Styled-Components
+Project Setup : Create React App
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 프로젝트시연
+- Development: 디렉토리에서 npm start 명령어 실행 후 브라우저에서 http://localhost:3000 접속
 
-### `yarn build`
+### 요구사항
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+디자인 가이드에 부합하는 웹 PC 화면 구현
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- 유사문항 버튼을 클릭시 오른쪽에 유사 문항 리스트 구현
+- 클릭된 유사 문항의 유형을 유사 문항 리스트 상단에 표시
+- 유사문항 버튼 클릭시 해당 버튼이 파랑색으로 변하도록 구현
+- 삭제할 경우 기존 리스트에서 삭제 되도록 구현
+- 문항 리스트에서 추가 버튼을 클릭 시, 선택된 문제의 아래에 추가되도록 구현
+- 문항 리스트 교체 버튼 클릭시 기존의 선택된 문제와 오른쪽의 유사 문항의 문제가 바뀌도록 구현
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- 반응형 
+1024px : 유사문항, 삭제 버튼이 아래로 내려오게 구현
+800px : 오른쪽 스크롤 생성 되도록 구현
+![](https://images.velog.io/images/carminchameleon/post/6028cfb8-8ca3-411c-a2a2-da72196f34fa/image.png)
