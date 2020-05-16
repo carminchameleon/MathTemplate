@@ -10,8 +10,8 @@
 
 **적용 기술** 
 
-React, Hooks, Styled-Components
-Project Setup : Create React App
+- React, Hooks, Styled-Components
+- Project Setup : Create React App
 
 ### 프로젝트시연
 - Development: 디렉토리에서 npm start 명령어 실행 후 브라우저에서 http://localhost:3000 접속
